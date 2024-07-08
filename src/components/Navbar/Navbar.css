@@ -1,0 +1,130 @@
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    height: 10vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    color: white;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .burger-line.open:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .burger-line.open:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger-line.open:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .navbar-center {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .navbar-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-phone {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-burger {
+      display: flex;
+      margin-left: 250px;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+      display: none;
+    }
+  
+    .navbar-links.open {
+      display: flex;
+      margin-right: 45px;
+    }
+
+    .navbar-title.open{
+      display: none;
+    }
+  
+    .navbar-link, .navbar-phone {
+      margin: 5px 0;
+    }
+  
+    .navbar-center {
+      margin: -36px 0;
+      margin-left: -200px;
+    }
+  
+    .navbar-right {
+      display: none;
+    }
+  }
+  

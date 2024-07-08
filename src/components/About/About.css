@@ -1,0 +1,109 @@
+/* src/styles/About.css */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    box-sizing: border-box;
+  }
+  
+  .w6 { width: 50%; }
+  .w7 { width: 58.3333%; }
+  .w10 { width: 83.3333%; }
+  .w12 { width: 100%; }
+  .o2 { margin-left: 16.6667%; }
+  .o4 { margin-left: 33.3333%; }
+  
+  .spacing-bottom-medium { margin-bottom: 2rem; }
+  .spacing-bottom-large { margin-bottom: 4rem; }
+  .spacing-top-large { margin-top: 4rem; }
+  
+  .wrap { padding: 1rem; }
+  
+  .intro h2 { 
+    font-size: 3.3rem;
+    text-align: left;
+    margin: 1rem 0;
+    font-family: 'GT Walsheim', sans-serif;
+    font-weight: normal;
+    line-height: 4rem;
+  }
+  
+  .slideshow .images {
+    display: flex;
+    gap: 1rem;
+    margin-top: 20rem;
+  }
+  
+  .slideshow .img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .slideshow .img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  
+  .about h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 2.5rem;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about .image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: left;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .about .image:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  
+  .full-width-slider .thumbnail {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .full-width-slider .thumbnail:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  
+  .full-width-slider p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .full-width-slider p.small {
+    font-size: 0.875rem;
+  }
+  
+  .full-width-slider h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
