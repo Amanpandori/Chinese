@@ -88,6 +88,7 @@
     .n__main2 h1{
         font-size: 35px;
         width: 100%;
+        text-align: center;
     }
     
     .n__main2 p{
@@ -104,5 +105,6 @@
     
     .n__main4 h1{
         width: 100%;
+        text-align: center;
     }
 }

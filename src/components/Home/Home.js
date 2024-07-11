@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <h1>A space to host tomorrow's episode.</h1>
+      <h1 className="home__heading">A space to host tomorrow's episode.</h1>
       <div className="thinking">
         <video src="https://cdn.pixabay.com/video/2024/02/25/201968-916877887_large.mp4" autoPlay muted loop></video>
         <h2>Way of Thinking.</h2>
@@ -18,16 +18,16 @@ const Home = () => {
         <h4>Ushibuya</h4>
         <div className="pic__info">
           <div className="info1">
-            <p>CATEGORY</p>
-            <h5>Beauty</h5>
+            <p className="info1__para">CATEGORY</p>
+            <h5 className="info__h5">Beauty</h5>
           </div>
           <div className="info2">
-            <p>LOCATION</p>
-            <h5>Tokyo</h5>
+            <p className="info1__para">LOCATION</p>
+            <h5 className="info__h5">Tokyo</h5>
           </div>
           <div className="info3">
-            <p>TOTAL AREA</p>
-            <h5>71.m/21.7t</h5>
+            <p className="info1__para">TOTAL AREA</p>
+            <h5 className="info__h5">71.m/21.7t</h5>
           </div>
         </div>
       </div>
@@ -36,16 +36,16 @@ const Home = () => {
         <h4>Ushibuya</h4>
         <div className="pic__info">
           <div className="info1">
-            <p>CATEGORY</p>
-            <h5>Beauty</h5>
+            <p className="info1__para">CATEGORY</p>
+            <h5 className="info__h5">Beauty</h5>
           </div>
           <div className="info2">
-            <p>LOCATION</p>
-            <h5>Tokyo</h5>
+            <p className="info1__para">LOCATION</p>
+            <h5 className="info__h5">Tokyo</h5>
           </div>
           <div className="info3">
-            <p>TOTAL AREA</p>
-            <h5>71.m/21.7t</h5>
+            <p className="info1__para">TOTAL AREA</p>
+            <h5 className="info__h5">71.m/21.7t</h5>
           </div>
         </div>
       </div>
@@ -54,16 +54,16 @@ const Home = () => {
         <h4>Ushibuya</h4>
         <div className="pic__info">
           <div className="info1">
-            <p>CATEGORY</p>
-            <h5>Beauty</h5>
+            <p className="info1__para">CATEGORY</p>
+            <h5 className="info__h5">Beauty</h5>
           </div>
           <div className="info2">
-            <p>LOCATION</p>
-            <h5>Tokyo</h5>
+            <p className="info1__para">LOCATION</p>
+            <h5 className="info__h5">Tokyo</h5>
           </div>
           <div className="info3">
-            <p>TOTAL AREA</p>
-            <h5>71.m/21.7t</h5>
+            <p className="info1__para">TOTAL AREA</p>
+            <h5 className="info__h5">71.m/21.7t</h5>
           </div>
         </div>
       </div>
@@ -72,16 +72,16 @@ const Home = () => {
         <h4>Ushibuya</h4>
         <div className="pic__info">
           <div className="info1">
-            <p>CATEGORY</p>
-            <h5>Beauty</h5>
+            <p className="info1__para">CATEGORY</p>
+            <h5 className="info__h5">Beauty</h5>
           </div>
           <div className="info2">
-            <p>LOCATION</p>
-            <h5>Tokyo</h5>
+            <p className="info1__para">LOCATION</p>
+            <h5 className="info__h5">Tokyo</h5>
           </div>
           <div className="info3">
-            <p>TOTAL AREA</p>
-            <h5>71.m/21.7t</h5>
+            <p className="info1__para">TOTAL AREA</p>
+            <h5 className="info__h5">71.m/21.7t</h5>
           </div>
         </div>
       </div>
@@ -90,16 +90,16 @@ const Home = () => {
         <h4>Ushibuya</h4>
         <div className="pic__info">
           <div className="info1">
-            <p>CATEGORY</p>
-            <h5>Beauty</h5>
+            <p className="info1__para">CATEGORY</p>
+            <h5 className="info__h5">Beauty</h5>
           </div>
           <div className="info2">
-            <p>LOCATION</p>
-            <h5>Tokyo</h5>
+            <p className="info1__para">LOCATION</p>
+            <h5 className="info__h5">Tokyo</h5>
           </div>
           <div className="info3">
-            <p>TOTAL AREA</p>
-            <h5>71.m/21.7t</h5>
+            <p className="info1__para">TOTAL AREA</p>
+            <h5 className="info__h5">71.m/21.7t</h5>
           </div>
         </div>
       </div>
@@ -108,16 +108,16 @@ const Home = () => {
         <h4>Ushibuya</h4>
         <div className="pic__info">
           <div className="info1">
-            <p>CATEGORY</p>
-            <h5>Beauty</h5>
+            <p className="info1__para">CATEGORY</p>
+            <h5 className="info__h5">Beauty</h5>
           </div>
           <div className="info2">
-            <p>LOCATION</p>
-            <h5>Tokyo</h5>
+            <p className="info1__para">LOCATION</p>
+            <h5 className="info__h5">Tokyo</h5>
           </div>
           <div className="info3">
-            <p>TOTAL AREA</p>
-            <h5>71.m/21.7t</h5>
+            <p className="info1__para">TOTAL AREA</p>
+            <h5 className="info__h5">71.m/21.7t</h5>
           </div>
         </div>
       </div>
@@ -126,16 +126,16 @@ const Home = () => {
         <h4>Ushibuya</h4>
         <div className="pic__info">
           <div className="info1">
-            <p>CATEGORY</p>
-            <h5>Beauty</h5>
+            <p className="info1__para">CATEGORY</p>
+            <h5 className="info__h5">Beauty</h5>
           </div>
           <div className="info2">
-            <p>LOCATION</p>
-            <h5>Tokyo</h5>
+            <p className="info1__para">LOCATION</p>
+            <h5 className="info__h5">Tokyo</h5>
           </div>
           <div className="info3">
-            <p>TOTAL AREA</p>
-            <h5>71.m/21.7t</h5>
+            <p className="info1__para">TOTAL AREA</p>
+            <h5 className="info__h5">71.m/21.7t</h5>
           </div>
         </div>
       </div>

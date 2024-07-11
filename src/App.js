@@ -7,17 +7,27 @@ import Process from './components/Process/Process.js'
 import Notebook from './components/NoteBook/Notebook.js'
 import Project from './components/Project/Project.js'
 import About from './components/About/About.js';
+import {BrowserRouter , Routes , Route} from "react-router-dom";
 
 function App() {
   return (
     <>
-        <About/>
-        <Contact/>
+    <BrowserRouter>
         <Navbar/>
-        <Home/>
-        <Process/>
-        <Project/>
-        <Notebook/>
+    <Routes>
+    <Route path='/' element={ <Home/>}></Route>
+      <Route path='/about' element={ <About/>}></Route>
+      <Route path='/contact' element={<Contact/>}></Route>
+      <Route path='/process' element={ <Process/>}></Route>
+      <Route path='/project' element={ <Project/>}></Route>
+      <Route path='/notebook' element={ <Notebook/>}></Route>
+
+    </Routes>
+    </BrowserRouter>
+        
+       
+        {/* <Project/>
+        <Notebook/> */}
     </>
   );
 }

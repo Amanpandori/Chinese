@@ -18,6 +18,7 @@
     height: 10vh;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
+    top: 0px;
     color: white;
     width: 100%;
     z-index: 999;
@@ -25,11 +26,11 @@
   
   .navbar-left {
     display: flex;
-    align-items: center;
+    align-items: center;    
   }
   
   .navbar-burger {
-    display: none;
+    /* display: none; */
     flex-direction: column;
     cursor: pointer;
   }
@@ -37,7 +38,7 @@
   .burger-line {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin: 4px 0;
     transition: 0.4s;
   }
@@ -62,7 +63,7 @@
   .navbar-link {
     margin: 0 10px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 16px;
   }
   
